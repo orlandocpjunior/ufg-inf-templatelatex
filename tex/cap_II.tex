@@ -1,0 +1,23 @@
+\chapter{Descrição da classe \textsf{inf-ufg}}
+\label{cap:theory}
+
+Este capítulo apresentará uma visão geraL...
+
+%% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\section{Opções da classe}
+\label{sec:http2}
+
+Para usar esta classe num documento \LaTeXe, coloque os arquivos 
+\verb|inf-ufg.cls|,\ \verb|inf-ufg.bst|,\ \verb|abnt-num.bst|,\ \verb|atbeginend.sty|\ e \verb|tocloft.sty|\ numa pasta onde o compilador \LaTeX\ pode achá--lo (normalmente na mesma pasta que seu arquivo \verb|.tex|), e defina--o como o estilo do seu documento. Por exemplo, uma dissertação de mestrado que usa o modelo abnt de citações bibliográficas
+
+\subsection{Sub seção}
+\label{subsec:framing}
+
+As opções da classe são \verb|[tese]| (para tese de doutorado), \verb|[dissertacao]| (para dissertação de mestrado), \verb|[monografia]| (para monografia de curso de especialização e \verb|[relatorio]| (para relatório final de curso de graduação). Se nenhuma opção for declarada, o documento é considerado como uma dissertação de mestrado. Se a opção \verb|[abnt]| for utilizada, as citações bibliográficas serão geradas conforme definido pelo grupo de trabalho \textsf{abnt-tex}. Contudo, o mais recomendável é não utilizar essa opção. Com a opção \verb|[nocolorlinks]| todos os {\em links} de navegação no texto ficam na cor preta. O ideal é usar esta opção para gerar o arquivo para impressão, pois a qualidade da impressão dos {\em links} fica superior.
+
+%% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+\section{Parâmetros da classe}
+\label{sec:lua}
+
+Os elementos pré-textuais são definidos página por página e dependem da correta definição dos parâmetros listados a seguir (aqueles que contém um texto/valor padrão não precisam ser definidos, caso atenda a situação do autor do texto que está usando a classe
